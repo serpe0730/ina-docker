@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: 'ejecutar la accion del docker'
         id: hola
-        uses: serpe0730/ina-docker/action@master
+        uses: serpe0730/ina-docker@main
         with:
           quien: 'Sergio'
       - name: 'Mostrar la hora obtenida'
